@@ -25,6 +25,8 @@ if (isset($_POST['login'])) {
                 header('location:./admin-page.php');
             } else {
                 $_SESSION['user-name'] = $row['name'];
+
+                // echo $_SESSION['user-name'];
                 header('location:./user-page.php');
             }
         } else {
