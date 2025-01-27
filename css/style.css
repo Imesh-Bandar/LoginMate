@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Diphylleia&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding:20px;
+    padding-bottom: 60px;
+}
+
+.container .content{
+    text-align: center;
+}
+
+.container .content h1{
+    font-size: 30px; 
+    color: #333;
+    
+}
+.container .content span{
+    font-size: 20px;
+    background-color: crimson;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.container .content h2{
+    font-size: 50px;
+    color: #333;
+   
+    
+}
+
+.container .content h2 span{
+    color: white;
+}
+
+.container .content p{
+    font-size: 20px;
+    margin-bottom:20px;
+  
+}
+
+.container .content .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    margin: 0 5px;;
+    border-radius: 2px;
+}
+
+.container .content .btn:hover{
+    background-color: crimson;
+    color: white;
+}
