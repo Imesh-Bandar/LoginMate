@@ -1,3 +1,10 @@
+
+<?php
+session_start();
+
+ 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +19,7 @@
 <body>
     <div class="container">
         <div class="content">
-            <h1>Hi, <span>Admin</span></h1>
+            <h1>Hi, <span><?php echo $_SESSION['admin-name']?></span></h1>
             <h2>Welcome <span>Admin</span></h2>
             <p>Welcome to your admin page</p>
             <a href="./login-form.php" class="btn">LOGIN</a>

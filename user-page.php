@@ -1,3 +1,10 @@
+<?php
+session_start();
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,8 +19,8 @@
 <body>
     <div class="container">
         <div class="content">
-            <h1>Hi, <span>USER</span></h1>
-            <h2>Welcome <span>USER</span></h2>
+            <h1>Hi, <span><?php echo [$_SESSION['user-name']] ?></span></h1>
+            <h2>Welcome <span><?php echo [$_SESSION['user-name']] ?></span></h2>
             <p>Welcome to your user page</p>
             <a href="./login-form.php" class="btn">LOGIN</a>
             <a href="./register-form.php" class="btn">REGISTER</a>
